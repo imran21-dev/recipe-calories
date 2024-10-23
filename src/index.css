@@ -7,3 +7,16 @@ body{
     font-family: "Lexend", sans-serif;
     
 }
+.numbered-list {
+    counter-reset: list-counter;
+  }
+  
+  .numbered-list li {
+    counter-increment: list-counter;
+  }
+  
+  .numbered-list li .list-number::before {
+    content: counter(list-counter);
+    font-weight: bold;
+    line-height: 2rem; /* Align number vertically */
+  }

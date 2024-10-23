@@ -1,0 +1,108 @@
+ [
+      {
+        "recipe_image": "https://img.freepik.com/free-photo/stir-fry-chicken-sweet-peppers-green-beans_2829-20113.jpg?uid=R109316863&ga=GA1.1.1023036907.1709693515&semt=ais_hybrid",
+        "recipe_id": "1",
+        "recipe_name": "Chicken Stir Fry",
+        "short_description": "A quick and healthy chicken stir fry with veggies.",
+        "ingredients": [
+          "500 g chicken breast",
+          "200 g broccoli",
+          "100 g carrots",
+          "2 tbsp soy sauce",
+          "1 tbsp olive oil",
+          "2 cloves garlic"
+        ],
+        "preparing_time": "25 minutes",
+        "calories": "350 calories"
+      },
+      {
+        "recipe_image": "https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14194.jpg?uid=R109316863&ga=GA1.1.1023036907.1709693515&semt=ais_hybrid",
+        "recipe_id": "2",
+        "recipe_name": "Beef Tacos",
+        "short_description": "Mexican-style beef tacos with fresh salsa.",
+        "ingredients": [
+          "400 g ground beef",
+          "100 g cheddar cheese",
+          "200 g tortilla wraps",
+          "1 onion",
+          "2 tomatoes",
+          "50 g lettuce",
+          "2 tsp taco seasoning"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": "450 calories"
+      },
+      {
+        "recipe_image": "https://img.freepik.com/free-photo/pasta-spaghetti-with-tomato-sauce-cheese-served-plate_1220-6910.jpg?uid=R109316863&ga=GA1.1.1023036907.1709693515&semt=ais_hybrid",
+        "recipe_id": "3",
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian pasta dish with a rich meat sauce.",
+        "ingredients": [
+          "400 g spaghetti",
+          "500 g ground beef",
+          "1 onion",
+          "2 cloves garlic",
+          "400 g canned tomatoes",
+          "100 g parmesan cheese",
+          "2 tbsp olive oil",
+          "1 tsp oregano"
+        ],
+        "preparing_time": "40 minutes",
+        "calories": "520 calories"
+      },
+      {
+        "recipe_image": "https://img.freepik.com/free-photo/pork-green-curry-brown-bowl-with-spices-black-cement-background_1150-35206.jpg?uid=R109316863&ga=GA1.1.1023036907.1709693515&semt=ais_hybrid",
+        "recipe_id": "4",
+        "recipe_name": "Vegetable Curry",
+        "short_description": "A flavorful and hearty vegetable curry with coconut milk.",
+        "ingredients": [
+          "200 g potatoes",
+          "200 g carrots",
+          "150 g peas",
+          "1 onion",
+          "2 cloves garlic",
+          "200 ml coconut milk",
+          "2 tbsp curry powder",
+          "1 tbsp vegetable oil"
+        ],
+        "preparing_time": "35 minutes",
+        "calories": "400 calories"
+      },
+      {
+        "recipe_image": "https://img.freepik.com/free-photo/thai-food-spicy-mixed-seafood-salad_1150-38111.jpg?uid=R109316863&ga=GA1.1.1023036907.1709693515&semt=ais_hybrid",
+        "recipe_id": "5",
+        "recipe_name": "Shrimp Salad",
+        "short_description": "Light and fresh shrimp salad with avocado and lemon dressing.",
+        "ingredients": [
+          "300 g shrimp",
+          "1 avocado",
+          "100 g mixed greens",
+          "50 g cherry tomatoes",
+          "1 cucumber",
+          "1 lemon",
+          "2 tbsp olive oil",
+          "1 tsp black pepper"
+        ],
+        "preparing_time": "20 minutes",
+        "calories": "280 calories"
+      },
+      {
+        "recipe_image": "https://img.freepik.com/free-photo/stack-homemade-pancakes-with-honey-syrup-berries_114579-9955.jpg?uid=R109316863&ga=GA1.1.1023036907.1709693515&semt=ais_hybrid",
+        "recipe_id": "6",
+        "recipe_name": "Fluffy Pancakes",
+        "short_description": "Soft and fluffy pancakes perfect for breakfast.",
+        "ingredients": [
+          "200 g all-purpose flour",
+          "2 eggs",
+          "300 ml milk",
+          "2 tbsp sugar",
+          "1 tsp baking powder",
+          "1 tsp vanilla extract",
+          "50 g butter"
+        ],
+        "preparing_time": "15 minutes",
+        "calories": "350 calories"
+      }
+    ]
+
+  
