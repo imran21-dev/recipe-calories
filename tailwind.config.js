@@ -1,5 +1,6 @@
 
 /** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui"
 
 export default {
   content: [
@@ -28,6 +29,17 @@ export default {
      
     }
   },
-  plugins: [],
+  plugins: [
+    daisyui,
+    
+    
+  ],
+  daisyui: {
+    // Disable DaisyUI scrollbar styles if they're applied as a component
+    styled: true,
+    themes: true,
+    base: false, // this removes the base styles including scrollbar overrides
+  },
 }
+
 

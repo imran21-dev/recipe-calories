@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body{
     font-family: "Lexend", sans-serif;
     
@@ -19,4 +21,21 @@ body{
     content: counter(list-counter);
     font-weight: bold;
     line-height: 2rem; /* Align number vertically */
+  }
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #00000015;
+    border-radius: 50px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0BE58A;
+    border-radius: 50px;
+  }
+  /* Hide the top and bottom scrollbar arrow icons */
+  ::-webkit-scrollbar-button {
+    display: none;
   }

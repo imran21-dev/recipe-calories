@@ -6,6 +6,7 @@ import PropTypes from "prop-types";
 
 const Carts = ({handleRecipe}) => {
     const [recipes, setRecipes] = useState([]);
+    
 
 useEffect(()=>{
     const recipesData = async() => {

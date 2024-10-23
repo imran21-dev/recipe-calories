@@ -3,7 +3,7 @@ import TimeCaloriesCalc from "./TimeCaloriesCalc/TimeCaloriesCalc";
 import WantCook from "./WantCook/WantCook";
 import PropTypes from "prop-types";
 
-const Calculations = ({ wantCook, currentCook, handleCurrentRecipe}) => {
+const Calculations = ({ wantCook, currentCook, handleCurrentRecipe, totalTime, totalCalories}) => {
   return (
     <div className="w-2/5 pl-6">
       <div className="border-2 border-secondaryTextColor/10 rounded-2xl w-full min-h-[700px] max-h-[700px] h-max overflow-y-auto flex flex-col items-center py-8">
@@ -50,7 +50,7 @@ const Calculations = ({ wantCook, currentCook, handleCurrentRecipe}) => {
           </ul>
         </section>
         <section className="w-full">
-            <TimeCaloriesCalc></TimeCaloriesCalc>
+            <TimeCaloriesCalc totalTime={totalTime} totalCalories={totalCalories}></TimeCaloriesCalc>
         </section>
       </div>
     </div>
@@ -59,6 +59,8 @@ const Calculations = ({ wantCook, currentCook, handleCurrentRecipe}) => {
 Calculations.propTypes = {
   wantCook: PropTypes.array.isRequired,
   currentCook: PropTypes.array.isRequired,
-  handleCurrentRecipe: PropTypes.func.isRequired
+  handleCurrentRecipe: PropTypes.func.isRequired,
+  totalTime: PropTypes.number.isRequired,
+  totalCalories: PropTypes.number.isRequired
 };
 export default Calculations;
